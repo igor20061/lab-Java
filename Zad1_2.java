@@ -9,7 +9,7 @@
 //x=4568
 //результат: 14
 
-import java.io.ObjectInputValidation;
+
 import java.util.Scanner;
 public class Zad1_2 {
     public int sumLastNums (int x) {
@@ -43,3 +43,4 @@ public class Zad1_2 {
         }
 
 }
+
