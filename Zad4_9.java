@@ -7,7 +7,6 @@
 //x=2
 //результат: [1,4,5]
 import java.util.Scanner;
-import java.util.Arrays;
 
 public class Zad4_9 {
     public void arrPrint(int[] arr) {
@@ -44,7 +43,7 @@ public class Zad4_9 {
         return newArr;
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         Zad4_9 program = new Zad4_9();
 
@@ -69,6 +68,7 @@ public class Zad4_9 {
         int x = scanner.nextInt();
 
         int[] result = program.findAll(arr, x);
-        System.out.println("Индексы, где найден элемент " + x + ": " + Arrays.toString(result));
+        System.out.println("Индексы, где найден элемент " + x + ": ");
+        program.arrPrint(result);
     }
 }
